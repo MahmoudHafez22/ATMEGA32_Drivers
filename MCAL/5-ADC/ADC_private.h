@@ -1,0 +1,32 @@
+/*
+ * ADC_private.h
+ *
+ *  Created on: Dec 13, 2022
+ *      Author: Mahmoud Hafez
+ */
+
+#ifndef ADC_PRIVATE_H_
+#define ADC_PRIVATE_H_
+
+#define PRESCALER_MASK         0b11111000
+#define CHANNEL_MASK           0b11100000
+
+#define  AREF_REF               1u
+#define  AVCC_REF               2u
+#define  INTERNAL_2560mV_REF  	3u
+
+
+#define EIGHT_BITS				1u
+#define TEN_BITS  				2u
+
+#define DIVISION_BY_2         1u
+#define DIVISION_BY_4         2u
+#define DIVISION_BY_8         3u
+#define DIVISION_BY_16        4u
+#define DIVISION_BY_32        5u
+#define DIVISION_BY_64        6u
+#define DIVISION_BY_128       7u
+
+#define SINGLE_CONVERSION     0u
+#define CHAIN_CONVERSION      1u
+#endif /* ADC_PRIVATE_H_ */
